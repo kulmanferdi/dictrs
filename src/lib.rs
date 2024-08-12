@@ -67,4 +67,17 @@ where
             Err(InvalidKeyException)
         }
     }
+
+    pub fn get(&mut self, key: &K) -> value: V {
+        let mut i: usize = 0;
+        while i < self.items.len() && self.items[i].key != *key {
+            i++;
+        }
+        if self.items[i].key == *key {
+            self.items[i].value
+        }
+        else {
+            Err(InvalidKeyException)
+        }
+    }
 }
