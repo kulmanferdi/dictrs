@@ -1,0 +1,13 @@
+[package]
+name = "dictrs"
+version = "0.1.0"
+edition = "2021"
+authors = ["Ferdinand_Kulman ferdi.kulman@gmail.com"]
+description = "A simple dictionary implementation written in Rust"
+license = "MIT"  
+repository = "https://github.com/kulmanferdi/dictrs" 
+readme = "README.md"              
+keywords = ["dictionary", "data structure"] 
+categories = ["data-structures", "algorithms"]
+
+[dependencies]
