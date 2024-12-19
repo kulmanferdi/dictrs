@@ -75,19 +75,18 @@ A generic dictionary type that holds key-value pairs using a `VecDeque`.
    ```
 
 
-
-## Item<K, V>
+### `Item<K, V>`
 Represents a key-value pair stored in the dictionary.
 
 ### Fields
-- **key: K**
+- `key: K`
   The key of the item.
 
-- **value: V**
+- `*value: V`
   The value associated with the key.
 
 ## Error Handling
-**InvalidKeyException**
+`InvalidKeyException`
 An exception type that is returned when operations such as get or delete are performed with a non-existent key.
 
 ## Example Usage
